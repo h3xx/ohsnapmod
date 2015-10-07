@@ -41,10 +41,10 @@ install: fonts.dir
 	xset fp rehash
 
 
-fonts.dir: $(PCFS) fonts.scale
+fonts.dir: fonts.scale
 	mkfontdir
 
-fonts.scale: $(PCFS)
+fonts.scale:
 	mkfontscale
 
 .PHONY: all clean install bdf pcf
