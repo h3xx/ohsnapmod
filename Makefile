@@ -6,7 +6,7 @@ BDFS := \
 	ohsnapmod7x14b.bdf \
 	ohsnapmod7x14n.bdf \
 
-PCFS := $(BDFS:.bdf=.pcf)
+PCFS := $(BDFS:.bdf=.pcf.gz)
 
 sfd2bdf := ./util/sfd2bdf
 
@@ -32,6 +32,9 @@ veryclean: clean
 
 %.pcf: %.bdf
 	bdftopcf -o $@ $<
+
+%.pcf.gz: %.pcf
+	gzip -9 $<
 
 # these targets are mainly for testing
 
