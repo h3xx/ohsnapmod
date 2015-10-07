@@ -1,24 +1,50 @@
-BDFS := $(wildcard *.bdf)
+srcdir := ohsnapmod
 
-PCFS := ${BDFS:.bdf=.pcf}
+BDFS := \
+	ohsnapmod7x12b.bdf \
+	ohsnapmod7x12n.bdf \
+	ohsnapmod7x14b.bdf \
+	ohsnapmod7x14n.bdf \
 
-all: ${PCFS}
+PCFS := $(BDFS:.bdf=.pcf)
 
-fonts.dir: ${PCFS} fonts.scale
-	mkfontdir
+sfd2bdf := ./util/sfd2bdf
 
-fonts.scale: ${PCFS}
-	mkfontscale
+all: pcf
+
+bdf: $(BDFS)
+
+pcf: $(PCFS)
 
 clean:
-	rm -rf *.bak *-2x.bdf *.pcf fonts.dir fonts.scale
+	$(RM) $(PCFS)
 
-2x:
-	for i in ${BDFS}; do bdfresize -f 2 "$$i" > $$(basename $$i .bdf)-2x.bdf; done
+veryclean: clean
+	$(RM) $(BDFS)
 
-.SUFFIXES: .bdf .pcf
+%.bdf: $(sfd2bdf)
+	sz=$$(basename $@ .bdf |sed -e 's,^ohsnapmod\(.*\)$$,\1,') ;\
+	ptsz=$$(echo $$sz |sed -e 's,^[0-9]x\(.*\)[a-z]$$,\1,') ;\
+	inf=$(srcdir)/$$sz/$$(basename $@ .bdf).sfd ;\
+	outf=$(srcdir)/$$sz/$$(basename $@ .bdf)-$$ptsz.bdf ;\
+	$(sfd2bdf) $$inf ;\
+	mv $$outf $@
 
-.bdf.pcf:
+%.pcf: %.bdf
 	bdftopcf -o $@ $<
 
-.PHONY: all 2x
+# these targets are mainly for testing
+
+install: fonts.dir
+	xset -fp $$PWD ;\
+	xset +fp $$PWD ;\
+	xset fp rehash
+
+
+fonts.dir: $(PCFS) fonts.scale
+	mkfontdir
+
+fonts.scale: $(PCFS)
+	mkfontscale
+
+.PHONY: all clean install bdf pcf
