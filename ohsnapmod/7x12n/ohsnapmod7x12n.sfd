@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1444165133
-ModificationTime: 1444233258
+ModificationTime: 1444236813
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -2064,6 +2064,7 @@ StartChar: uni009F
 Encoding: 159 159 255
 Width: 1000
 VWidth: 0
+Flags: W
 LayerCount: 2
 EndChar
 EndChars
@@ -2128,16 +2129,16 @@ BDFChar: 14 14 7 3 6 3 9
 J:N0#J:R+h
 BDFChar: 15 15 7 0 6 -2 9
 &.fBa&.ngP&.fBa
-BDFChar: 16 16 7 6 6 -2 -2
-z
+BDFChar: 16 16 6 0 5 9 9
+qu?]s
 BDFChar: 17 17 7 0 6 6 6
 rVuou
 BDFChar: 18 18 7 0 6 3 3
 rVuou
 BDFChar: 19 19 7 0 6 0 0
 rVuou
-BDFChar: 20 20 7 6 6 -2 -2
-z
+BDFChar: 20 20 6 0 5 -2 -2
+qu?]s
 BDFChar: 21 21 7 3 6 -2 9
 J:N0#J:R->J:N0#
 BDFChar: 22 22 7 0 3 -2 9
@@ -2564,16 +2565,16 @@ BDFChar: 232 136 6 1 3 8 9
 5bJ)W
 BDFChar: 233 137 6 0 5 0 7
 7&Wp)5c@X1
-BDFChar: 234 138 7 1 5 0 8
-:a#O`JG9BUp](9o
+BDFChar: 234 138 7 1 5 0 9
+:`oc5J:RD##l"B"
 BDFChar: 235 139 6 1 4 0 6
 &0O5g5TgU<
 BDFChar: 236 140 6 0 5 0 7
 I#sG[OH>QO
 BDFChar: 237 141 12 0 0 0 0
 z
-BDFChar: 238 142 7 1 5 0 8
-:a#N=&0O5gp](9o
+BDFChar: 238 142 7 1 5 0 9
+:`oc5#S8+DJG9*E
 BDFChar: 239 143 12 0 0 0 0
 z
 BDFChar: 240 144 12 0 0 0 0
@@ -2596,17 +2597,17 @@ BDFChar: 248 152 6 1 4 8 9
 :nRdg
 BDFChar: 249 153 6 0 5 4 7
 oNY?p
-BDFChar: 250 154 7 1 5 0 6
-:a#O`p^$Wp
+BDFChar: 250 154 7 1 5 0 7
+:`oc5JG9EF
 BDFChar: 251 155 6 1 4 0 6
 J3Y4g+@(GW
 BDFChar: 252 156 6 0 4 0 5
 E2]_>TQgG:
 BDFChar: 253 157 12 0 0 0 0
 z
-BDFChar: 254 158 7 1 5 0 6
-:a#NE+@,]%
-BDFChar: 255 159 6 0 4 0 9
-:f)t(:f&8W+<UXa
+BDFChar: 254 158 7 1 5 0 7
+:`oc5&0O75
+BDFChar: 255 159 7 1 5 0 9
+:f%.JLktgK+<UXa
 EndBitmapFont
 EndSplineFont

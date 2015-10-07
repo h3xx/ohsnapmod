@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1444234977
-ModificationTime: 1444235412
+ModificationTime: 1444236288
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -2065,10 +2065,11 @@ StartChar: uni009F
 Encoding: 159 159 255
 Width: 1000
 VWidth: 0
+Flags: W
 LayerCount: 2
 EndChar
 EndChars
-BitmapFont: 14 256 11 3 1 
+BitmapFont: 14 257 11 3 1 
 BDFStartProperties: 25
 FONTNAME_REGISTRY 16 ""
 FOUNDRY 16 "Misc"
@@ -2275,8 +2276,8 @@ BDFChar: 87 87 7 0 6 -3 10
 !!!!u<)cgr<)e5Fz
 BDFChar: 88 88 7 0 6 -3 10
 !!!!e6mrTp6psECz
-BDFChar: 89 89 7 0 6 -3 10
-!!!!e6puD6&.fBQz
+BDFChar: 89 89 7 1 5 0 7
+Lkpl^+<VdL
 BDFChar: 90 90 7 1 5 0 7
 p]qER5_+C[
 BDFChar: 91 91 7 0 6 -3 10
@@ -2565,16 +2566,16 @@ BDFChar: 232 136 8 2 5 10 11
 @#t?g
 BDFChar: 233 137 8 0 6 0 9
 8>o>r+<WpKWg!J`
-BDFChar: 234 138 7 1 5 0 9
-:a#O`JG9BU#l"B"
+BDFChar: 234 138 7 1 5 0 10
+:`oc5J:RD##RL2*
 BDFChar: 235 139 8 2 5 0 6
 &0O5g5TgU<
 BDFChar: 236 140 8 0 6 0 9
 IZTYQS</hoOF@00
 BDFChar: 237 141 14 0 0 0 0
 z
-BDFChar: 238 142 7 1 5 0 9
-:a#N=&0O5gJG9*E
+BDFChar: 238 142 7 1 5 0 10
+:`oc5#S8+DJ:RCp
 BDFChar: 239 143 14 0 0 0 0
 z
 BDFChar: 240 144 14 0 0 0 0
@@ -2597,17 +2598,17 @@ BDFChar: 248 152 8 1 6 10 11
 A=*>s
 BDFChar: 249 153 8 0 7 6 9
 qc-Wn
-BDFChar: 250 154 7 1 5 0 7
-:a#O`p]q0#
+BDFChar: 250 154 7 1 5 0 8
+:`oc5JG9BUp](9o
 BDFChar: 251 155 8 2 5 0 6
 J3Y4g+@(GW
 BDFChar: 252 156 8 0 6 0 6
 I$0YaOH=hi
 BDFChar: 253 157 14 0 0 0 0
 z
-BDFChar: 254 158 7 1 5 0 7
-:a#NE+@(JP
-BDFChar: 255 159 8 0 6 0 11
-6pq$,Jj`!T&.fBa
+BDFChar: 254 158 7 1 5 0 8
+:`oc5&0O5gp](9o
+BDFChar: 255 159 7 1 5 0 10
+:f%.JLktgK+<Vd,
 EndBitmapFont
 EndSplineFont
