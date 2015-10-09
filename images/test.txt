@@ -1,0 +1,7 @@
+Hello World!
+illegal1 = 0Oo
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+abcdefghijklmnopqrstuvwxyz
+0123456789 () [] {} <> @ $
+~ # % ^ & * - = + / ? : ; _ |
+the quick brown fox jumps over the lazy dog
