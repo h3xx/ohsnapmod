@@ -1,4 +1,4 @@
-# Oh Snap moddded
+# Oh Snap modded
 
 ## a bitmap font
 
