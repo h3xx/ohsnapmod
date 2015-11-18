@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1444187427
-ModificationTime: 1444255384
+ModificationTime: 1447862365
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -51,7 +51,7 @@ BeginChars: 256 256
 
 StartChar: U+0000
 Encoding: 0 0 0
-Width: 420
+Width: 583
 VWidth: 0
 Flags: W
 LayerCount: 2
@@ -59,7 +59,7 @@ EndChar
 
 StartChar: U+0001
 Encoding: 1 1 1
-Width: 420
+Width: 583
 VWidth: 0
 Flags: W
 LayerCount: 2
@@ -75,7 +75,7 @@ EndChar
 
 StartChar: U+0003
 Encoding: 3 3 3
-Width: 420
+Width: 583
 VWidth: 0
 Flags: W
 LayerCount: 2
@@ -83,7 +83,7 @@ EndChar
 
 StartChar: U+0004
 Encoding: 4 4 4
-Width: 420
+Width: 583
 VWidth: 0
 Flags: W
 LayerCount: 2
@@ -91,7 +91,7 @@ EndChar
 
 StartChar: U+0005
 Encoding: 5 5 5
-Width: 420
+Width: 583
 VWidth: 0
 Flags: W
 LayerCount: 2
@@ -99,7 +99,7 @@ EndChar
 
 StartChar: U+0006
 Encoding: 6 6 6
-Width: 420
+Width: 583
 VWidth: 0
 Flags: W
 LayerCount: 2
@@ -107,7 +107,7 @@ EndChar
 
 StartChar: U+0007
 Encoding: 7 7 7
-Width: 420
+Width: 583
 VWidth: 0
 Flags: W
 LayerCount: 2
@@ -115,7 +115,7 @@ EndChar
 
 StartChar: U+0008
 Encoding: 8 8 8
-Width: 420
+Width: 583
 VWidth: 0
 Flags: W
 LayerCount: 2
@@ -123,7 +123,7 @@ EndChar
 
 StartChar: U+0009
 Encoding: 9 9 9
-Width: 420
+Width: 583
 VWidth: 0
 Flags: W
 LayerCount: 2
@@ -131,7 +131,7 @@ EndChar
 
 StartChar: U+000a
 Encoding: 10 10 10
-Width: 420
+Width: 583
 VWidth: 0
 Flags: W
 LayerCount: 2
@@ -259,7 +259,7 @@ EndChar
 
 StartChar: U+001a
 Encoding: 26 26 26
-Width: 420
+Width: 583
 VWidth: 0
 Flags: W
 LayerCount: 2
@@ -267,7 +267,7 @@ EndChar
 
 StartChar: U+001b
 Encoding: 27 27 27
-Width: 420
+Width: 583
 VWidth: 0
 Flags: W
 LayerCount: 2
@@ -275,7 +275,7 @@ EndChar
 
 StartChar: U+001c
 Encoding: 28 28 28
-Width: 420
+Width: 583
 VWidth: 0
 Flags: W
 LayerCount: 2
@@ -283,7 +283,7 @@ EndChar
 
 StartChar: U+001d
 Encoding: 29 29 29
-Width: 420
+Width: 583
 VWidth: 0
 Flags: W
 LayerCount: 2
@@ -291,7 +291,7 @@ EndChar
 
 StartChar: U+001e
 Encoding: 30 30 30
-Width: 420
+Width: 583
 VWidth: 0
 Flags: W
 LayerCount: 2
@@ -299,7 +299,7 @@ EndChar
 
 StartChar: U+001f
 Encoding: 31 31 31
-Width: 420
+Width: 583
 VWidth: 0
 Flags: W
 LayerCount: 2
@@ -2126,27 +2126,27 @@ FONT_ASCENT 18 10
 FONT_DESCENT 18 2
 BDFEndProperties
 Resolution: 100
-BDFChar: 0 0 6 0 4 0 7
+BDFChar: 0 0 7 0 4 0 7
 q"XXZq"XXZ
-BDFChar: 1 1 6 0 4 2 6
+BDFChar: 1 1 7 0 4 2 6
 +E7*p+92BA
 BDFChar: 2 2 7 0 6 -2 9
 W`5utW`5utW`5ut
-BDFChar: 3 3 6 0 5 -1 9
+BDFChar: 3 3 7 0 5 -1 9
 OHAsnO8sY>&.fBQ
-BDFChar: 4 4 6 0 5 -1 9
+BDFChar: 4 4 7 0 5 -1 9
 n:9GIJ,h\S3$9=D
-BDFChar: 5 5 6 0 5 -1 9
+BDFChar: 5 5 7 0 5 -1 9
 @$#o#?iW/33%-$P
-BDFChar: 6 6 6 0 5 -1 9
+BDFChar: 6 6 7 0 5 -1 9
 J:N0#n,PQn3$9=D
-BDFChar: 7 7 6 1 3 6 8
+BDFChar: 7 7 7 1 3 6 8
 5bL@B
-BDFChar: 8 8 6 0 4 0 6
+BDFChar: 8 8 7 0 4 0 6
 +<^G%+9;0:
-BDFChar: 9 9 6 0 5 -1 9
+BDFChar: 9 9 7 0 5 -1 9
 OO14nO8pCG+<WcH
-BDFChar: 10 10 6 0 5 -1 9
+BDFChar: 10 10 7 0 5 -1 9
 Lkpj`+96d#&.fBQ
 BDFChar: 11 11 7 0 6 -2 9
 0JG170JMtrz
@@ -2178,17 +2178,17 @@ BDFChar: 24 24 7 0 6 -2 9
 z!!*!P0JG17
 BDFChar: 25 25 7 0 6 -2 9
 0JG170JG170JG17
-BDFChar: 26 26 6 0 4 0 8
+BDFChar: 26 26 7 0 4 0 8
 &0O5g5TgU<p](9o
-BDFChar: 27 27 6 0 4 0 8
+BDFChar: 27 27 7 0 4 0 8
 5TgUD&0O4<p](9o
-BDFChar: 28 28 6 0 4 0 5
+BDFChar: 28 28 7 0 4 0 5
 pkX`^Lkl$2
-BDFChar: 29 29 6 0 4 1 6
+BDFChar: 29 29 7 0 4 1 6
 #l#N-pj`>E
-BDFChar: 30 30 6 0 4 0 7
+BDFChar: 30 30 7 0 4 0 7
 0M"Iu5X7m8
-BDFChar: 31 31 6 2 2 3 4
+BDFChar: 31 31 7 2 2 3 4
 J:IV"
 BDFChar: 32 32 7 0 6 -2 9
 zzz
