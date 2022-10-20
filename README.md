@@ -1,12 +1,16 @@
 # Oh Snap modded
 
-## a bitmap font
+This project has moved to Codeberg:
+https://codeberg.org/h3xx/ohsnapmod
 
-This font was created by taking the [ohsnap](https://sourceforge.net/projects/osnapfont/) font and, using glyphs from [terminus](http://terminus-font.sourceforge.net/), patching the holes in the ISO8859-1 version in order to make it more complete with regard to special graphics mode.
+# Give Up GitHub
 
-## Demo
+This project has given up GitHub. ([See Software Freedom Conservancy's *Give Up GitHub* site for details](https://giveupgithub.org).)
 
-![7x12n](/../flair/images/7x12n.png)
-![7x12b](/../flair/images/7x12b.png)
-![7x14n](/../flair/images/7x14n.png)
-![7x14b](/../flair/images/7x14b.png)
+You can now find this project at https://codeberg.org/h3xx/ohsnapmod instead.
+
+Any use of this project's code by GitHub Copilot, past or present, is done without our permission. We do not consent to GitHub's use of this project's code in Copilot.
+
+Join us; you can [give up GitHub](https://giveupgithub.org) too!
+
+![Logo of the GiveUpGitHub campaign](https://sfconservancy.org/img/GiveUpGitHub.png)
